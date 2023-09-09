@@ -212,6 +212,13 @@ void lcd_customSymbol(rgb_lcd_HandleTypeDef *lcd, uint8_t location, uint8_t char
     HAL_I2C_Master_Transmit (lcd->hi2c_ptr, lcd->lcdAddr<<1,(uint8_t *) data, 9, 100);
 }
 
+void lcd_print(rgb_lcd_HandleTypeDef *lcd, uint8_t* data, uint8_t size){
+	for(int i=0; i<size; i++)
+	{
+		lcd_write(lcd, data[i]);
+	}
+}
+
 void lcd_setReg(rgb_lcd_HandleTypeDef *lcd, uint8_t addr, uint8_t data)
 {
 	uint8_t data_t[2] = { addr,data};

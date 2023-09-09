@@ -37,6 +37,7 @@ void lcd_rightToLeft(rgb_lcd_HandleTypeDef *lcd);
 void lcd_autoscroll(rgb_lcd_HandleTypeDef *lcd);
 void lcd_noAutoscroll(rgb_lcd_HandleTypeDef *lcd);
 void lcd_customSymbol(rgb_lcd_HandleTypeDef *lcd, uint8_t location, uint8_t charmap[]);
+void lcd_print(rgb_lcd_HandleTypeDef *lcd, uint8_t* data, uint8_t size);
 void lcd_write(rgb_lcd_HandleTypeDef *lcd, uint8_t value);
 void lcd_setReg(rgb_lcd_HandleTypeDef *lcd, uint8_t addr, uint8_t data);
 void lcd_setRGB(rgb_lcd_HandleTypeDef *lcd, uint8_t r, uint8_t g, uint8_t b);
