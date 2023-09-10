@@ -10,10 +10,12 @@
 	1. C/C++ Build -> settings -> Tool settings -> MCU GCC Compiler -> Include paths.
 	2. C/C++ Genereal -> Paths and Symbols -> Includes.
 	3. C/C++ Genereal -> Paths and Symbols ->Source Location.
+	
+<p align="center">
 		<img src="./resources/images/1Build_settings.png" alt="drawing" width="450"/>
 		<img src="./resources/images/2General_include.png" alt="drawing" width="450"/>
 		<img src="./resources/images/3General_source.png" alt="drawing" width="450"/>
-
+</p>
 Then, in your code:
 
 2. Include the library:
