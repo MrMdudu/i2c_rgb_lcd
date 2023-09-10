@@ -1,0 +1,14 @@
+
+#idc_rgb_ldc
+
+## Intro
+ C library for use of rgb lcd with **STM32G4** microcontroller.
+ It is a simplified verion of the [ DFRobot_RGBLCD1602](https://github.com/DFRobot/DFRobot_RGBLCD1602) library originaly written for arduino
+
+## How to use in your STM32CubeMX projects
+
+![](./resources/images/1Build_settings.png)
+![](./resources/images/2General_include.png)
+![](./resources/images/2General_source.png)
+
+ 
