@@ -46,4 +46,4 @@ rgb_lcd_HandleTypeDef lcd;
   lcd_setRGB(&lcd, 0, 100, 0);	// make the backlight green
 /* USER CODE END 2 */
 ```
-![](./resources/images/HelloWorld.png 2=50x)
+![](./resources/images/HelloWorld.png)
